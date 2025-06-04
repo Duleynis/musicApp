@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BottomNavStyle" parent="Widget.Design.BottomNavigationView">
+        <item name="android:focusable">false</item> <!-- Отключаем фокус -->
+    </style>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_btn"
+        android:layout_width="41dp"
+        android:layout_height="79dp"
+        android:contentDescription="@string/searchDescription"
+        android:icon="@drawable/home_icon_64"
+        android:title="" />
+
+    <item
+        android:id="@+id/search_btn"
+        android:layout_width="41dp"
+        android:layout_height="79dp"
+        android:contentDescription="@string/searchDescription"
+        android:icon="@drawable/search_icon_64"
+        android:title="" />
+
+    <item
+        android:id="@+id/playList_btn"
+        android:layout_width="36dp"
+        android:layout_height="82dp"
+        android:title=""
+        android:icon="@drawable/playlist_icon_64"
+        android:contentDescription="@string/playListDescription"/>
+</menu>

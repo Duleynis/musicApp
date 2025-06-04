@@ -1,0 +1,505 @@
+[
+  {
+    "title": "Festive Frolic",
+    "artist": "Adam Dib",
+    "albumPhoto": "photos/59.jpg",
+    "duration": 156,
+    "genre": "Cinematic",
+    "MusicFileID": "music/Adam Dib - Festive Frolic.mp3"
+  },
+
+  {
+    "title": "Lost You",
+    "artist": "Adam Simons",
+    "albumPhoto": "photos/45.jpg",
+    "duration": 210,
+    "genre": "Pop",
+    "MusicFileID": "music/Adam Simons - Lost You.mp3"
+  },
+
+  {
+    "title": "Capao da Canoa",
+    "artist": "Amos Ever Hadani",
+    "albumPhoto": "photos/58.jpg",
+    "duration": 254,
+    "genre": "Jazz",
+    "MusicFileID": "music/Amos Ever Hadani - Capao da Canoa.mp3"
+  },
+
+  {
+    "title": "Last Hero",
+    "artist": "Anton Vlasov",
+    "albumPhoto": "photos/27.jpg",
+    "duration": 196,
+    "genre": "Cinematic",
+    "MusicFileID": "music/Anton Vlasov - Last Hero.mp3"
+  },
+
+  {
+    "title": "Eternal Echoes",
+    "artist": "Ariel Shalom",
+    "albumPhoto": "photos/47.jpg",
+    "duration": 186,
+    "genre": "Indie",
+    "MusicFileID": "music/Ariel Shalom - Eternal Echoes.mp3"
+  },
+
+  {
+    "title": "Coffee Stop",
+    "artist": "Aves",
+    "albumPhoto": "photos/41.jpg",
+    "duration": 140,
+    "genre": "Jazz",
+    "MusicFileID": "music/Aves - Coffee Stop.mp3"
+  },
+
+  {
+    "title": "Face the Future",
+    "artist": "BalloonPlanet",
+    "albumPhoto": "photos/53.jpg",
+    "duration": 151,
+    "genre": "Jazz",
+    "MusicFileID": "music/BalloonPlanet - Face the Future.mp3"
+  },
+
+  {
+    "title": "Phoenix",
+    "artist": "Ben Goldstein",
+    "albumPhoto": "photos/23.jpg",
+    "duration": 210,
+    "genre": "Cinematic",
+    "MusicFileID": "music/Ben Goldstein - Phoenix - Instrumental Version.mp3"
+  },
+
+  {
+    "title": "o k t o b u",
+    "artist": "Benny Bronco",
+    "albumPhoto": "photos/54.jpg",
+    "duration": 170,
+    "genre": "Indie",
+    "MusicFileID": "music/Benny Bronco - o k t o b u.mp3"
+  },
+
+  {
+    "title": "Life is Worth Living",
+    "artist": "Christopher Young",
+    "albumPhoto": "photos/20.jpg",
+    "duration": 249,
+    "genre": "Cinematic",
+    "MusicFileID": "music/Christopher Young - Life Is Worth Living - Instrumental Version.mp3"
+  },
+
+  {
+    "title": "Got It Next feat Lil Saucy",
+    "artist": "Corey Pieper",
+    "albumPhoto": "photos/56.jpg",
+    "duration": 176,
+    "genre": "Pop",
+    "MusicFileID": "music/Corey Pieper - Got It Next feat Lil Saucy.mp3"
+  },
+
+  {
+    "title": "Forever",
+    "artist": "Cosmonkey",
+    "albumPhoto": "photos/50.jpg",
+    "duration": 138,
+    "genre": "Indie",
+    "MusicFileID": "music/Cosmonkey - Forever.mp3"
+  },
+
+  {
+    "title": "We Wait",
+    "artist": "Daniel Dombrowsky",
+    "albumPhoto": "photos/48.jpg",
+    "duration": 238,
+    "genre": "Cinematic",
+    "MusicFileID": "music/Daniel Dombrowsky - We Wait.mp3"
+  },
+
+  {
+    "title": "Inner Dream",
+    "artist": "DaniHaDani",
+    "albumPhoto": "photos/42.jpg",
+    "duration": 192,
+    "genre": "Indie",
+    "MusicFileID": "music/DaniHaDani - Inner Dream.mp3"
+  },
+
+  {
+    "title": "Meridian",
+    "artist": "EFGR",
+    "albumPhoto": "photos/2.jpg",
+    "duration": 190,
+    "genre": "Cinematic",
+    "MusicFileID": "music/EFGR - Meridian.mp3"
+  },
+
+  {
+    "title": "Summit",
+    "artist": "EFGR",
+    "albumPhoto": "photos/18.jpg",
+    "duration": 193,
+    "genre": "Cinematic",
+    "MusicFileID": "music/EFGR - Summit.mp3"
+  },
+
+  {
+    "title": "Still in the Game",
+    "artist": "Evert Z",
+    "albumPhoto": "photos/19.jpg",
+    "duration": 161,
+    "genre": "Cinematic",
+    "MusicFileID": "music/Evert Z - Still in the Game.mp3"
+  },
+
+  {
+    "title": "I Owe it to You",
+    "artist": "Gidon Schocken",
+    "albumPhoto": "photos/57.jpg",
+    "duration": 125,
+    "genre": "Pop",
+    "MusicFileID": "music/Gidon Schocken - I Owe It to You.mp3"
+  },
+
+  {
+    "title": "Breathe",
+    "artist": "Ian Post",
+    "albumPhoto": "photos/3.jpg",
+    "duration": 241,
+    "genre": "Cinematic",
+    "MusicFileID": "music/Ian Post - Breathe.mp3"
+  },
+
+  {
+    "title": "Dream",
+    "artist": "Ian Post",
+    "albumPhoto": "photos/9.jpg",
+    "duration": 229,
+    "genre": "Cinematic",
+    "MusicFileID": "music/Ian Post - Dream.mp3"
+  },
+
+  {
+    "title": "Power It Up",
+    "artist": "Ikoliks",
+    "albumPhoto": "photos/1.jpg",
+    "duration": 154,
+    "genre": "Pop",
+    "MusicFileID": "music/Ikoliks - Power It Up.mp3"
+  },
+
+  {
+    "title": "See Me",
+    "artist": "Jango",
+    "albumPhoto": "photos/4.jpg",
+    "duration": 174,
+    "genre": "Pop",
+    "MusicFileID": "music/Jango - See Me.mp3"
+  },
+
+  {
+    "title": "Bad Life",
+    "artist": "Jimmy Curtis",
+    "albumPhoto": "photos/36.jpg",
+    "duration": 131,
+    "genre": "Pop",
+    "MusicFileID": "music/Jimmy Curtis - Bad Life.mp3"
+  },
+
+  {
+    "title": "One Time",
+    "artist": "Jonezen",
+    "albumPhoto": "photos/24.jpg",
+    "duration": 250,
+    "genre": "Cinematic",
+    "MusicFileID": "music/Jonezen - One Time - Instrumental Version.mp3"
+  },
+
+  {
+    "title": "Dinner",
+    "artist": "Just for Kicks",
+    "albumPhoto": "photos/32.jpg",
+    "duration": 51,
+    "genre": "Jazz",
+    "MusicFileID": "music/Just for Kicks - Dinner.mp3"
+  },
+
+  {
+    "title": "Quantum",
+    "artist": "Lalinea",
+    "albumPhoto": "photos/39.jpg",
+    "duration": 112,
+    "genre": "Indie",
+    "MusicFileID": "music/Lalinea - Quantum.mp3"
+  },
+
+  {
+    "title": "Scooby Doobie Dah",
+    "artist": "Lance Conrad",
+    "albumPhoto": "photos/49.jpg",
+    "duration": 139,
+    "genre": "Indie",
+    "MusicFileID": "music/Lance Conrad - Scooby Doobie Dah.mp3"
+  },
+
+  {
+    "title": "Glad You Came",
+    "artist": "Louis Island",
+    "albumPhoto": "photos/35.jpg",
+    "duration": 175,
+    "genre": "Pop",
+    "MusicFileID": "music/Louis Island - Glad You Came.mp3"
+  },
+
+  {
+    "title": "Calling All the People",
+    "artist": "Michael Shynes",
+    "albumPhoto": "photos/7.jpg",
+    "duration": 197,
+    "genre": "Rock",
+    "MusicFileID": "music/Michael Shynes - Calling All the People.mp3"
+  },
+
+  {
+    "title": "Rush",
+    "artist": "Michael Shynes",
+    "albumPhoto": "photos/29.jpg",
+    "duration": 255,
+    "genre": "Cinematic",
+    "MusicFileID": "music/Michael Shynes - Rush - Instrumental Version.mp3"
+  },
+
+  {
+    "title": "Somewhere We Were Stars",
+    "artist": "Michael Shynes",
+    "albumPhoto": "photos/11.jpg",
+    "duration": 195,
+    "genre": "Pop",
+    "MusicFileID": "music/Michael Shynes - Somewhere We Were Stars - Alternative - Instrumental Version.mp3"
+  },
+
+  {
+    "title": "The Light at the End of the Tunnel",
+    "artist": "Mikhail Gurbo",
+    "albumPhoto": "photos/60.jpg",
+    "duration": 148,
+    "genre": "Cinematic",
+    "MusicFileID": "music/Mikhail Gurbo - The Light at the End of the Tunnel.mp3"
+  },
+
+  {
+    "title": "Boogie Breakin",
+    "artist": "MooveKa",
+    "albumPhoto": "photos/34.jpg",
+    "duration": 171,
+    "genre": "Pop",
+    "MusicFileID": "music/MooveKa - Boogie Breakin.mp3"
+  },
+
+  {
+    "title": "happicat",
+    "artist": "Out of Flux",
+    "albumPhoto": "photos/38.jpg",
+    "duration": 108,
+    "genre": "Pop",
+    "MusicFileID": "music/Out of Flux - happicat.mp3"
+  },
+
+  {
+    "title": "My Favorite Miss",
+    "artist": "Randy Sharp",
+    "albumPhoto": "photos/40.jpg",
+    "duration": 179,
+    "genre": "Indie",
+    "MusicFileID": "music/Randy Sharp - My Favorite Miss.mp3"
+  },
+
+  {
+    "title": "Venice Beach",
+    "artist": "Randy Sharp",
+    "albumPhoto": "photos/33.jpg",
+    "duration": 48,
+    "genre": "Jazz",
+    "MusicFileID": "music/Randy Sharp - Venice Beach.mp3"
+  },
+
+  {
+    "title": "Le Paris Village",
+    "artist": "Retrophonic",
+    "albumPhoto": "photos/43.jpg",
+    "duration": 159,
+    "genre": "Jazz",
+    "MusicFileID": "music/Retrophonic - Le Paris Village.mp3"
+  },
+
+  {
+    "title": "Blast",
+    "artist": "RocknStock",
+    "albumPhoto": "photos/10.jpg",
+    "duration": 105,
+    "genre": "Indie",
+    "MusicFileID": "music/RocknStock - Blast.mp3"
+  },
+
+  {
+    "title": "Wasted",
+    "artist": "RocknStock",
+    "albumPhoto": "photos/14.jpg",
+    "duration": 108,
+    "genre": "Rock",
+    "MusicFileID": "music/RocknStock - Wasted.mp3"
+  },
+
+  {
+    "title": "Where the Water Meets the Land",
+    "artist": "Roie Shpigler",
+    "albumPhoto": "photos/37.jpg",
+    "duration": 178,
+    "genre": "Indie",
+    "MusicFileID": "music/Roie Shpigler - Where the Water Meets the Land.mp3"
+  },
+
+  {
+    "title": "Eagle Flight",
+    "artist": "Romeo",
+    "albumPhoto": "photos/31.jpg",
+    "duration": 129,
+    "genre": "Indie",
+    "MusicFileID": "music/Romeo - Eagle Flight.mp3"
+  },
+
+  {
+    "title": "Leash Off",
+    "artist": "Roza",
+    "albumPhoto": "photos/55.jpg",
+    "duration": 197,
+    "genre": "Jazz",
+    "MusicFileID": "music/Roza - Leash Off.mp3"
+  },
+
+  {
+    "title": "Fire",
+    "artist": "Sajan Nauriyal",
+    "albumPhoto": "photos/16.jpg",
+    "duration": 307,
+    "genre": "Indie",
+    "MusicFileID": "music/Sajan Nauriyal - Fire - Instrumental Version.mp3"
+  },
+
+  {
+    "title": "The Microwave Dance",
+    "artist": "Semo",
+    "albumPhoto": "photos/46.jpg",
+    "duration": 109,
+    "genre": "Jazz",
+    "MusicFileID": "music/Semo - The Microwave Dance.mp3"
+  },
+
+  {
+    "title": "The Game Is Mine feat HMD",
+    "artist": "Superlative",
+    "albumPhoto": "photos/52.jpg",
+    "duration": 204,
+    "genre": "Indie",
+    "MusicFileID": "music/Superlative - The Game Is Mine feat HMD.mp3"
+  },
+
+  {
+    "title": "Bang Bang Baby",
+    "artist": "The Sonic Ruse",
+    "albumPhoto": "photos/8.jpg",
+    "duration": 190,
+    "genre": "Jazz",
+    "MusicFileID": "music/The Sonic Ruse - Bang Bang Baby - No Lead Vocals.mp3"
+  },
+
+  {
+    "title": "Take a Seat",
+    "artist": "Velvet Haze",
+    "albumPhoto": "photos/22.jpg",
+    "duration": 194,
+    "genre": "Rock",
+    "MusicFileID": "music/Velvet Haze - Take a Seat.mp3"
+  },
+
+  {
+    "title": "Aquilone",
+    "artist": "Vis Major",
+    "albumPhoto": "photos/21.jpg",
+    "duration": 412,
+    "genre": "Rock",
+    "MusicFileID": "music/Vis Major - Aquilone.mp3"
+  },
+
+  {
+    "title": "Endure",
+    "artist": "Vis Major",
+    "albumPhoto": "photos/17.jpg",
+    "duration": 420,
+    "genre": "Rock",
+    "MusicFileID": "music/Vis Major - Endure.mp3"
+  },
+
+  {
+    "title": "Champion",
+    "artist": "Wes Harris",
+    "albumPhoto": "photos/44.jpg",
+    "duration": 144,
+    "genre": "Jazz",
+    "MusicFileID": "music/Wes Harris - Champion.mp3"
+  },
+
+  {
+    "title": "Discovery",
+    "artist": "Zac Nelson",
+    "albumPhoto": "photos/12.jpg",
+    "duration": 219,
+    "genre": "Rock",
+    "MusicFileID": "music/Zac Nelson - Discovery.mp3"
+  },
+
+  {
+    "title": "Euphoria",
+    "artist": "Zac Nelson",
+    "albumPhoto": "photos/28.jpg",
+    "duration": 170,
+    "genre": "Rock",
+    "MusicFileID": "music/Zac Nelson - Euphoria.mp3"
+  },
+
+  {
+    "title": "Young Love",
+    "artist": "Zac Nelson",
+    "albumPhoto": "photos/26.jpg",
+    "duration": 155,
+    "genre": "Rock",
+    "MusicFileID": "music/Zac Nelson - Young Love.mp3"
+  },
+
+  {
+    "title": "Somewhere Else",
+    "artist": "Ziv Moran",
+    "albumPhoto": "photos/5.jpg",
+    "duration": 290,
+    "genre": "Rock",
+    "MusicFileID": "music/Ziv Moran - Somewhere Else.mp3"
+  },
+
+  {
+    "title": "The Talk of Cavalry",
+    "artist": "Ziv Moran",
+    "albumPhoto": "photos/6.jpg",
+    "duration": 206,
+    "genre": "Rock",
+    "MusicFileID": "music/Ziv Moran - The Talk of Cavalry.mp3"
+  },
+
+  {
+    "title": "Wildfire",
+    "artist": "Zulhou",
+    "albumPhoto": "photos/51.jpg",
+    "duration": 196,
+    "genre": "Jazz",
+    "MusicFileID": "music/Zulhou - Wildfire.mp3"
+  }
+]

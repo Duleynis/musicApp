@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">PIO</string>
+    <string name="create">Зарегистрируйтесь</string>
+    <string name="loginHint">Введите логин</string>
+    <string name="passHint">Введите пароль</string>
+    <string name="registration">Регистрация</string>
+    <string name="authorization">Авторизация</string>
+    <string name="LoginInApp">Войти</string>
+    <string name="RegLink">Зарегистрироваться</string>
+    <string name="AuthLink">Авторизоваться</string>
+    <string name="loginRule">Не менее 3 символов</string>
+    <string name="passRule">Не менее 5 символов</string>
+    <string name="listen">Слушать</string>
+    <string name="homeDescription">Главная страница</string>
+    <string name="searchDescription">Поиск аудиозаписи по наименованию</string>
+    <string name="generateDescription">Генерация подборки по выбранному музыкальному жанру</string>
+    <string name="playListDescription">Работа с плейлистами</string>
+    <string name="SongAuthor">Автор</string>
+    <string name="SongName">Название песни</string>
+    <string name="nextTrack">Следующий трек</string>
+    <string name="previousTrack">Предыдущий трек</string>
+    <string name="albumImg">Фото альбома</string>
+    <string name="queryHint">Поиск песни...</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="playlistTitle">PLAYLIST</string>
+</resources>
