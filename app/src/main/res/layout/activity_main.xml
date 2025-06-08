@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffff00">
+    android:background="#FFA500">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/songLayout"
@@ -102,7 +102,7 @@
         android:id="@+id/menu"
         android:layout_width="match_parent"
         android:layout_height="55dp"
-        android:background="#FFFF00"
+        android:background="#FFA500"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

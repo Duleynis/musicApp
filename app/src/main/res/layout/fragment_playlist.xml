@@ -5,7 +5,7 @@
     android:id="@+id/playlist"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffff00"
+    android:background="#FFA500"
     tools:context=".Views.PlaylistView">
 
     <androidx.appcompat.widget.Toolbar

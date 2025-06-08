@@ -5,7 +5,7 @@
     android:id="@+id/search"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffff00"
+    android:background="#FFA500"
     tools:context=".Views.SearchView">
 
     <androidx.appcompat.widget.Toolbar
