@@ -51,12 +51,15 @@ class MusicService : Service()
     //Воспроизводим новую песню (предыдущую или следующую)
     private fun startNewMusic(newMusicFile : String?,duration : Int?)
     {
+        //Получаем дескриптор на музыкальный файл
+        val music = assets.openFd(newMusicFile!!)
+
         try{
             mediaPlayer?.stop()
             mediaPlayer?.reset() // Сбрасываем его состояние
 
             // Устанавливаем новый источник данных
-            mediaPlayer?.setDataSource(newMusicFile)
+            mediaPlayer?.setDataSource(music.fileDescriptor,music.startOffset,music.length)
             mediaPlayer?.prepare()
             mediaPlayer?.start()
 

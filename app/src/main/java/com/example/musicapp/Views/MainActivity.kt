@@ -4,6 +4,7 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
+import android.content.res.AssetManager
 import android.graphics.drawable.Drawable
 import android.os.Bundle
 import android.view.View
@@ -37,7 +38,6 @@ import kotlinx.coroutines.launch
 import org.koin.androidx.viewmodel.ext.android.viewModel
 import org.koin.core.component.KoinComponent
 import org.koin.core.component.inject
-import java.io.File
 
 class MainActivity : AppCompatActivity(), IActivityFragmentContract, KoinComponent {
 
@@ -55,6 +55,9 @@ class MainActivity : AppCompatActivity(), IActivityFragmentContract, KoinCompone
 
     private val sharedViewModule: SharedViewModule by viewModel()
     private val sharedPreferences : ShPreferences by inject()
+
+    //Для доступа к MP3 и PNG файлам в папке assets
+    private lateinit var assetManager : AssetManager
 
     //Слушатель для взаимодействия активности и MainView
     private lateinit var mainListener : IActivityFragmentContract
@@ -76,16 +79,12 @@ class MainActivity : AppCompatActivity(), IActivityFragmentContract, KoinCompone
 
     //Обновляем медиаплеер при изменении музыкального файла
     private val observer = Observer<String> { newMusicFile ->
-        //Получаем абсолютный путь к музыкальному файлу
-        val file = File(applicationContext.filesDir, newMusicFile)
-        val absolutePath = file.absolutePath
-
         //Даем команду MusicService на выполнение
         val intent = Intent(this, MusicService::class.java)
         intent.action = "UPDATE_MUSIC"
 
         //Передаем музыкальный файл и длительность песни
-        intent.putExtra("musicFile", absolutePath)
+        intent.putExtra("musicFile", newMusicFile)
         intent.putExtra("song_duration", sharedViewModule.duration.value)
         startService(intent)
     }
@@ -273,20 +272,10 @@ class MainActivity : AppCompatActivity(), IActivityFragmentContract, KoinCompone
 
         //Обновляем изображение альбома трека
         sharedViewModule.albumImg.observe(this, Observer { newIMGfile ->
-            val imageFile = File(this.filesDir, newIMGfile)
-            if (imageFile.exists())
-            {
-                //Устанавливаем найденное изображение
-                Glide.with(this)
-                    .load(imageFile)
-                    .into(albumImg)
-            }
-
-            else
-            {
-                //Заглушка
-                albumImg.setImageResource(R.drawable.album_icon_32)
-            }
+            //Устанавливаем найденное изображение
+            Glide.with(this)
+                .load("file:///android_asset/$newIMGfile")
+                .into(albumImg)
         })
 
         //Обновляем состояние кнопки добавления/удаления песни из плейлиста
@@ -451,6 +440,8 @@ class MainActivity : AppCompatActivity(), IActivityFragmentContract, KoinCompone
         editbtn = findViewById(R.id.editbtn)//Кнопка для добавления песни в плейлист
 
         menu = findViewById(R.id.menu)//Меню навигации по приложению
+
+        assetManager = assets
     }
 
     //При уничтожении объекта

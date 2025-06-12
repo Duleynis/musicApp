@@ -114,13 +114,10 @@ class PlaylistAdapter (private val context: Context,
         fun bind(item:MusicTable)
         {
             //Устанавливаем найденное изображение
-            val imageFile = File(context.filesDir, item.albumPhoto)
-            if (imageFile.exists())
-            {
-                Glide.with(context)
-                    .load(imageFile)
-                    .into(album)
-            }
+            val img = item.albumPhoto
+            Glide.with(context)
+                .load("file:///android_asset/$img")
+                .into(album)
 
             name.text = item.title // Обновляем название песни
             author.text = item.artist // Обновляем автора песни

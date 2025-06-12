@@ -14,7 +14,6 @@ import com.example.musicapp.R
 import com.example.musicapp.Room.Entities.MusicTable
 import com.example.musicapp.interfaces.IAddDeleteSong
 import com.example.musicapp.interfaces.IonRecyclerItemClick
-import java.io.File
 
 class SearchAdapter (
     private val context : Context,
@@ -120,14 +119,11 @@ class SearchAdapter (
         //Обновляем данные
         fun bind(item: MusicTable)
         {
+            val img = item.albumPhoto
             //Устанавливаем найденное изображение
-            val imageFile = File(context.filesDir, item.albumPhoto)
-            if (imageFile.exists())
-            {
-                Glide.with(context)
-                    .load(imageFile)
-                    .into(album)
-            }
+            Glide.with(context)
+                .load("file:///android_asset/$img")
+                .into(album)
 
             name.text = item.title // Обновляем название песни
             author.text = item.artist // Обновляем автора песни
